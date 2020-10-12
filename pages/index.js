@@ -20,7 +20,7 @@ function Index({ data }) {
                     if (item.slice_type === 'link') {
                         return (
                             <div>
-                                <a className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-2 inline-block" href={item.primary.destino.url}>{item.primary.texto_do_botao}</a>
+                                <a className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-2 inline-block" href={item.primary.destino.url} target="_blank">{item.primary.texto_do_botao}</a>
                             </div>
                         )
                     }
